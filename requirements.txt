@@ -1,0 +1,7 @@
+# PyAV 19 removed `metadata_errors`, which faster-whisper 1.2.1 still passes.
+# Keep 16.x until faster-whisper supports PyAV 19.
+av==16.0.1
+faster-whisper==1.2.1
+soundcard==0.4.6
+numpy>=2.0
+PySide6-Essentials>=6.8,<7

@@ -1,0 +1,4 @@
+# Optional: CUDA 12 runtime + cuDNN 9 for faster-whisper on NVIDIA GPUs.
+# Install into the same venv, then run `python -m app.cli --warmup` to verify.
+nvidia-cublas-cu12>=12.4
+nvidia-cudnn-cu12>=9.1,<10

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+models/
+samples/*.wav
+.env
+
+# Build output (PyInstaller, installers)
+build/
+dist/
+*.spec
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Local design renders
+ui_audit_*.png
+live_arabic_test.png
